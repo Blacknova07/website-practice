@@ -191,9 +191,10 @@ a:hover {
 }
 }
 
+
 /*hero section*/
 .hero {
-    height: 80vh;
+    height: 90vh;
     background: url('pretty.jpg') no-repeat center center/cover;
     display: flex;
     justify-content: center;
@@ -250,6 +251,11 @@ a:hover {
 }
 
 @media (max-width: 890px) {
+
+.hero-content {
+    padding: 20px;
+    border-radius: 10px;
+}
     .hero h1 {
         font-size: 32px;
     }
@@ -455,6 +461,10 @@ img {
   
 }
 /* End of Contact Section */
+
+.map{
+  max-width: 100%;
+}
 
 /*footer*/
 
